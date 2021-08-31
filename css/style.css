@@ -19,7 +19,6 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 }
 
 /*BODY*/
-@media (min-width: 380px);
 body {
   background-color: #00002e;
   color: white;
@@ -32,7 +31,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  min-width: 858px;
 }
  
 .lista ul {
@@ -64,3 +62,23 @@ header.topo {
 /*PÁGINA INICIAL*/
 div.pg-home {
 }
+/*mobile size*/
+@media (min-width: 320px){
+.telas{
+ width:100%;
+}
+}
+/*tablet size*/
+@media (min-width:426px){
+  .telas{
+    width:100%;
+  }
+}
+/*desktop size*/
+@media (min-width:769px){
+  .telas{
+  width:100%;
+  }
+}
+
+
